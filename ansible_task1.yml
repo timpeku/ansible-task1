@@ -20,7 +20,6 @@
       name: unzip
       state: latest
 
-
   - name: Unarchive a file that needs to be downloaded
     unarchive:
       src: https://www.free-css.com/assets/files/free-css-templates/download/page286/creative-studio.zip
