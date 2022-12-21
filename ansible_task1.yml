@@ -29,4 +29,4 @@
   - name: Copy files
     copy: 
       src: /tmp/creative-studio/*
-      dest: /var/www/html
+      dest: /var/www/html/
