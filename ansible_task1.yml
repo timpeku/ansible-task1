@@ -5,12 +5,12 @@
       name: httpd
       state: latest
 
-  - name: Start service httpd, if not started
+  - name: Start service httpd
     service:
       name: httpd
       state: started
 
-  - name: Enable service httpd, and not touch the state
+  - name: Enable service httpd
     service:
       name: httpd
       enabled: yes
