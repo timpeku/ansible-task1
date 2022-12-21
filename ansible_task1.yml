@@ -24,7 +24,8 @@
     unarchive:
       src: https://www.free-css.com/assets/files/free-css-templates/download/page286/creative-studio.zip
       dest: /tmp/
-
+      remote_src: yes
+      
   - name: Copy files
     copy: 
       src: /tmp/creative-studio/*
