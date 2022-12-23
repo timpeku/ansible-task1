@@ -30,3 +30,4 @@
     copy: 
       src: /tmp/creative-studio/*
       dest: /var/www/html/
+      remote_src: yes 
